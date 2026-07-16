@@ -1,0 +1,25 @@
+{
+  "name": "book-store-api",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Moamen Walid",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "cross-env NODE_ENV=development nodemon app.js",
+    "start:prod": "cross-env NODE_ENV=production nodemon app.js",
+    "start:staging": "cross-env NODE_ENV=staging nodemon app.js"
+  },
+  "dependencies": {
+    "cross-env": "^10.1.0",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "express-async-handler": "^1.2.0",
+    "joi": "^18.2.3",
+    "mongoose": "^9.7.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
